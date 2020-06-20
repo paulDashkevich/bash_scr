@@ -1,6 +1,6 @@
 #!/bin/bash
 
-LOCKFILE=/home/paul/mail.lck
+LOCKFILE=/var/log/m.sh
 #LOCKFILE=/var/log/
 if [ -f $LOCKFILE ]
 then
